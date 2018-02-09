@@ -7,7 +7,7 @@ import notFound from './page/404.vue'
 Vue.use(VueRouter);
 
 let routes = [{
-    path: 'login',
+    path: '/login',
     component: login,
     name: '',
     hidden: true
