@@ -3,7 +3,7 @@ import VueRouter from "vue-router"
 
 Vue.use(VueRouter);
 
-let route = [{
+let routes = [{
     path: 'login',
     component: login,
     name: '',
@@ -15,8 +15,8 @@ let route = [{
     hidden: true
 }];
 
-var route = new VueRouter({
+var router = new VueRouter({
     routes
 })
 
-export default route;
+export default router;
