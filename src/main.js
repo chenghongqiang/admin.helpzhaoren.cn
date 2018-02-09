@@ -1,10 +1,10 @@
 import Vue from 'vue'
 import App from './App.vue'
-import Route from 'vue-route'
+import Router from 'vue-route'
 
-Vue.use(Route);
+Vue.use(Router);
 
-route.beforeEach((to, from, next) => {
+router.beforeEach((to, from, next) => {
   if (to.path == '/login') {
     sessionStorage.removeItem('user');
   }
@@ -23,6 +23,6 @@ import router from "./route.js"
 
 new Vue({
   el: '#app',
-  route,
+  router,
   render: h => h(App)
 })
