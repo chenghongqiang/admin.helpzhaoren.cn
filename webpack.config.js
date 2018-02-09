@@ -86,7 +86,7 @@ module.exports = {
     historyApiFallback: true,
     noInfo: true,
     overlay: true,
-	public: 'admin.helpzhaoren.cn'
+	  public: 'admin.helpzhaoren.cn'
   },
   performance: {
     hints: false
